@@ -29,7 +29,7 @@ print("PARSING")
 xml = xmltodict.parse(GzipFile(filepath))
 # savegame -> info -> player
 # <player name="Val Selton" location="{20004,60011}" money="81920"></player>
-print(f"SEARCHING")
+print("SEARCHING")
 player = xml['savegame']['info']['player']
 player_name = player['@name']
 player_money = player['@money']
