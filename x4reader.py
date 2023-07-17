@@ -38,7 +38,7 @@ print(f'PLAYER: {player_name} has ${player_money}')
 for faction in xml['savegame']['universe']['factions']['faction']:
     faction_name = faction['@id']
     print(f'{faction_name}')
-    try:    
+    try:
         for relation in faction['relations']['relation']:
             relation_name = relation['@faction']
             relation_val = relation['@relation']
