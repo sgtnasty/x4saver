@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-This file is part of the fraggedpY distribution (https://gitlab.com/fraggedpy).
+This file is part of the x4saver distribution (https://github.com/sgtnasty/x4saver).
 Copyright (c) 2023 Ronaldo Nascimento
 
 This program is free software: you can redistribute it and/or modify
